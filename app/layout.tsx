@@ -3,6 +3,7 @@ import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import { ThemeFromLogo } from '@/components/theme-from-logo'
 
 export const metadata: Metadata = {
   title: 'v0 App',
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        <ThemeFromLogo />
         {children}
         <Analytics />
       </body>
