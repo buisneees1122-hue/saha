@@ -153,4 +153,20 @@
     border-radius: var(--radius-lg);
     box-shadow: 0 10px 24px color-mix(in oklch, var(--foreground) 8%, transparent);
   }
+
+  .pricing-card {
+    transition: transform 300ms ease, box-shadow 300ms ease, border-color 300ms ease;
+    will-change: transform, box-shadow;
+  }
+  .pricing-card:hover {
+    transform: translateY(-4px);
+    box-shadow:
+      0 10px 28px color-mix(in oklch, var(--primary) 28%, transparent),
+      0 0 0 1px color-mix(in oklch, var(--primary) 40%, transparent);
+  }
+  .pricing-card:focus-within {
+    box-shadow:
+      0 0 0 2px color-mix(in oklch, var(--ring) 40%, transparent),
+      0 10px 28px color-mix(in oklch, var(--ring) 24%, transparent);
+  }
 }
