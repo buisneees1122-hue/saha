@@ -14,11 +14,11 @@ export function Hero() {
           <span className="sr-only">Background showcasing premium detailing finish</span>
         </div>
 
-        <div className="relative max-w-2xl">
-          <div className="hero-content-glass p-6 md:p-8">
+        <div className="relative">
+          <div className="max-w-4xl">
             <p className="text-xs uppercase tracking-widest text-muted-foreground">Premium Mobile Detailing</p>
-            <h1 className="text-pretty text-4xl md:text-5xl font-semibold mt-2">We Shine With Details</h1>
-            <p className="mt-4 leading-relaxed text-balance">
+            <h1 className="text-pretty text-5xl md:text-6xl font-semibold mt-2">We Shine With Details</h1>
+            <p className="mt-4 text-lg md:text-xl leading-relaxed text-balance">
               Premium car washing and detailing services at your convenience. From quick exterior washes to full interior
               restorations and ceramic coatings — we keep your car looking its best.
             </p>
