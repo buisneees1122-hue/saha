@@ -31,7 +31,7 @@ export function PricingSection() {
             <Card
               key={t.name}
               className={cn(
-                "bg-card text-card-foreground transition-shadow",
+                "pricing-card bg-card text-card-foreground transition-shadow",
                 t.popular && "ring-1 ring-primary/30 shadow-md"
               )}
             >
